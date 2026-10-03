@@ -1,0 +1,25 @@
+/* Base styles (Tailwind comes from CDN in index.html) */
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  background: #f9fafb; /* gray-50 */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #111827; /* gray-900 */
+}
+img, svg, video, canvas { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; }
+
+/* Optional: keep the portal utility without overriding global inputs/buttons */
+.portal {
+  padding: 20px;
+  background: #e40909ff; /* no quotes */
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.portal:hover { background: #fc2424ff; }
